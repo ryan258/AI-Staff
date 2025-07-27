@@ -1,0 +1,1 @@
+This directory is for voice and tone guides.
