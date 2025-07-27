@@ -1,63 +1,50 @@
-# AI Staff HQ
+# AI-Staff
 
-This is a lean, extensible framework for building and managing your own AI workforce.
+## Overview
+
+AI-Staff is a lean, extensible framework for building and managing AI-powered staff agents.  
+It provides the essential files, templates, and examples to help you create your own customized team of AI agents for any project or department.
+
+## Philosophy
+
+This repository is intentionally minimal.
+
+- **Easy to onboard:** New users and contributors can quickly understand and extend the core concepts.
+- **Modular:** Add specialized roles, workflows, and templates as your needs grow.
+- **Starter kit:** Use as a base for your own "department" or full-featured system.
+
+For a comprehensive version with specialized staff, workflows, and documentation, see [AI-Staff-HQ](https://github.com/your-org/AI-Staff-HQ).
 
 ## Getting Started
 
-This project provides a basic structure for organizing your AI assistants, handbooks, and workflows. You can customize it to fit your specific needs by adding your own content.
+1. Fork or clone this repository.
+2. Explore the `staff/` folder for example agent roles.
+3. Use templates in `handbooks/`, `workflows/`, and `templates/` to build your own processes.
+4. Update `profile/user-context.md` to personalize your team's experience.
+5. Extend by adding new staff files, workflows, or templates.
 
-## Directory Structure
-
-The directory structure is as follows:
+## Structure
 
 ```
-.
-├── handbooks/
-│   └── README.md
+AI-Staff/
 ├── staff/
-│   └── README.md
-├── templates/
-│   └── README.md
+├── handbooks/
 ├── workflows/
-│   └── README.md
-├── knowledge-base/
-├── voices/
-├── meta/
-├── .gitignore
-├── README.md
-└── USAGE-GUIDE.md
+├── templates/
+├── profile/
+├── docs/
 ```
 
-- **`handbooks/`**: Contains instructional materials and guides for your AI staff.
-- **`staff/`**:  This is where you define your individual AI staff members. Each file in this directory can represent a different AI persona.
-- **`templates/`**: Holds reusable templates for various tasks, such as project briefs or content creation.
-- **`workflows/`**:  Contains multi-step processes and proven patterns for your AI staff to follow.
-- **`knowledge-base/`**: A place for core principles, frameworks, and reference materials.
-- **`voices/`**:  Defines different voice and tone guides for consistent communication.
-- **`meta/`**:  Contains project metadata, changelogs, and version history.
+## Contributing
 
-## How to Add Your Own Content
+- Create new staff roles by copying `example-specialist.md` and updating as needed.
+- Share improvements via pull requests.
+- Keep the focus on clarity, reusability, and extensibility.
 
-This project is designed for you to bring your own staff, workflows, templates, and handbooks.
+## License
 
-### Adding New Staff
+MIT
 
-To create a new AI staff member, add a new Markdown file in the `staff/` directory. For example, `staff/my-new-assistant.md`.  In that file, you can define the persona, capabilities, and instructions for that AI.
+---
 
-### Adding New Handbooks
-
-To add a new handbook, create a new Markdown file in the `handbooks/` directory. For example, `handbooks/my-new-handbook.md`.
-
-### Adding New Templates
-
-To add a new template, create a new file in the `templates/` directory. For example, `templates/my-new-template.md`.
-
-### Adding New Workflows
-
-To add a new workflow, create a new Markdown file in the `workflows/` directory. For example, `workflows/my-new-workflow.md`.
-
-For more detailed instructions, please refer to the [USAGE-GUIDE.md](USAGE-GUIDE.md).
-
-## Customization
-
-This project is a starting point. You are encouraged to modify and extend it to meet your specific needs. You can add new directories, change the structure, and create your own unique AI workforce.
+_This repo is a minimal foundation. Build your own staff, workflows, and handbooks to suit your team or project!_
